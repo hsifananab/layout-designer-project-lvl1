@@ -9,6 +9,43 @@ body {
     line-height: 1.6em;
 }
 
+h1,
+h2,
+h3,
+h4 {
+margin: 0;
+
+font-weight: normal;
+font-family: "Neucha", cursive;
+
+line-height: 1.2em;
+}
+
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+h1 {
+font-size: 72px;
+}
+
+h2 {
+font-size: 60px;
+}
+
+h3 {
+font-size: 34px;
+}
+
+.title-orange {
+color: #fe8a02;
+}
+
+/* Container */
+
+
+
 /* Цвета
 Белый: #fff
 Полупрозрачный белый: #d7ccc0
