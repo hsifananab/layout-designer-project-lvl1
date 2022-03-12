@@ -287,8 +287,33 @@
         </section>
     </main>
 
-    <footer class="footer">
-        
+    <footer class="footer section">
+        <div class="container">
+            <div class="subscription">
+                <h3 class="subscription__title">
+                    Хотите узнать больше? <br> Подпишитесь на обновления
+                </h3>
+                <div class="subscription__email">
+                    <form action="/" method="GET" class="subscription__form">
+                        <label class="subscription__label" for="email">Электронная почта</label>
+                        <div class="subscription__item">
+                            <input type="email" name="email" id="email" class="subscription__input" placeholder="Ваша электронная почта">
+                            <button class="button button--form"></button>
+                        </div>
+                        <p class="subscription__rules">Подписываясь, вы принимаете <a href="#" class="rules">правила
+                            сервиса</a></p>
+                    </form>
+    
+                </div>
+    
+            </div>
+            <div class="copyright">
+                <p class="copyright__item">© 2020 Ян Юсов</p>
+                <p class="copyright__item">По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" class="copyright__link">Yash Ranadive Cognitive Biases in Programming</a></p>
+                <p class="copyright__item"><a href="https://ru.hexlet.io/" class="copyright__link">Курсы программирования Hexlet
+                </a></p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
